@@ -1,0 +1,191 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+h2{
+    font-weight: 500;
+}
+h4{
+    font-weight: 300;
+}
+
+.padding{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.bg-sec{
+    background-color: blanchedalmond;
+}
+
+/*nav bar */
+.mynav{  
+    padding-bottom: 3px;
+    background-color:blanchedalmond !important;
+}
+nav .navbar-brand{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    transition:.5s all;
+    margin-left: 25px;
+}
+
+nav .navbar-nav a{
+    margin-right: 15px;
+    color: slategray;
+    font-size: 16px;
+    letter-spacing: 0.07em;
+    font-weight: 400;
+    transition: .5s all;
+}
+
+nav .navbar-nav a:hover{
+    color: darkgreen;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    transition: .5s all;
+}
+/*heading*/
+header{
+    height: 100vh;
+    width: 100%;
+    background-image:url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box{
+    max-width: 700px;
+    color: white;
+}
+
+.content-box h1, h4{
+    font-size: 30px;
+}
+
+
+.content-box p{
+    color: white
+}
+/*about us*/
+.aboutus{
+    margin: 15px 0px;
+} 
+
+.jumbotron blockquote h2{
+font-size: 65px;
+color: blanchedalmond;
+}
+
+.jumbotron figcaption{
+    color: white;
+}
+
+.jumbotron{
+background-image: url("../images/background2.jpg");
+background-size: cover;
+height: 100%;
+margin: 15px 0px;
+}
+
+/* in store */
+
+.card{
+    margin: 15px 0px;
+}
+.card,.card-header{
+    background: #f8F9Fa !important;
+}
+
+.card-header{
+    border:none !important;
+}
+
+.instore-class .card-header i{
+    font-size: 50px;
+}
+
+.instore-border{
+    height:2px;
+    width: 25px;
+    margin: 15px auto;
+    background: darkgreen;
+}
+ /*testimonials */
+.testimonials a{
+    color: black;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    filter: invert(100%);
+}
+
+h6{
+    padding-top: 13px;
+    color: darkgreen;
+}
+
+.gallery img{
+    max-width: 500px;
+    margin: 10px 0px;
+}
+
+/*contact us */
+
+.contact .icon{
+    font-size: 50px;
+    text-align: center;
+}
+
+.contact a{
+        color: darkgreen;
+        text-decoration: none;
+        transition: .5s all;
+    }
+
+.contact a:hover{
+        color: slategray;
+        text-decoration: none;
+        transition: .5s all;
+    }
+
+
+/*footer*/
+footer{
+    background-color: silver;
+}
+
+footer .icon a{
+    font-size: 35px;
+    color: darkgreen;
+    text-decoration: none;
+}
+
+footer .icon a:hover{
+    color: blanchedalmond;
+    transition: .5s all;
+    text-decoration: none;
+}
+
+footer a{
+    color: darkgreen;
+    text-decoration: none;
+    transition: .5s all;
+}
+
+footer a:hover{
+    color: blanchedalmond;
+    text-decoration: none;
+    transition: .5s all;
+}
